@@ -7,7 +7,7 @@ const Team = () => {
     <>
       <div className='container xl:max-w-[1140px] mx-auto pb-[80px] xl:pb-[167px] px-5'>
         <h3 className='text-[35px] sm:text-[48px] ff_black_sans text-white text-center'>Team</h3>
-          <div className='pt-10 sm:pt-14 flex gap-10 justify-center flex-wrap'>
+          <div className='pt-10 sm:pt-14 flex gap-10 justify-center flex-wrap relative z-10'>
             <div className="w-[294px] transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer">
               <img src={imgOne} alt="team-img-1" />
               <div className='text-center py-4 team_bg rounded-[0px_0px_0px_63.002px]'>
