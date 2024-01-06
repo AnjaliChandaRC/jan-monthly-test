@@ -59,13 +59,13 @@ const Header = () => {
 
           <div className="flex gap-3 ps-12 pe-8">
             <a href="/">
-              <img src={instaImg} alt="insta-img" />
+              <img className="transition-all duration-300 ease-in-out hover:scale-125" src={instaImg} alt="insta-img" />
             </a>
             <a href="/">
-              <img src={twitterImg} alt="twitter" />
+              <img className="transition-all duration-300 ease-in-out hover:scale-125" src={twitterImg} alt="twitter" />
             </a>
             <a href="/">
-              <img src={discordImg} alt="discord" />
+              <img className="transition-all duration-300 ease-in-out hover:scale-125" src={discordImg} alt="discord" />
               </a>
             </div>
                     <div className="flex">
@@ -162,13 +162,13 @@ const Header = () => {
               </li>
               <div className="flex gap-3 pt-5">
             <a href="/">
-              <img src={instaImg} alt="insta-img" />
+              <img className="transition-all duration-300 ease-in-out hover:scale-125" src={instaImg} alt="insta-img" />
             </a>
             <a href="/">
-              <img src={twitterImg} alt="twitter" />
+              <img className="transition-all duration-300 ease-in-out hover:scale-125" src={twitterImg} alt="twitter" />
             </a>
             <a href="/">
-              <img src={discordImg} alt="discord" />
+              <img className="transition-all duration-300 ease-in-out hover:scale-125" src={discordImg} alt="discord" />
               </a>
             </div>
                <div className="flex justify-start mt-4">
