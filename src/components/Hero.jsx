@@ -11,7 +11,7 @@ const Hero = () => {
         <Header />
           <div className='text-center flex justify-end flex-col grow mx-auto h-full px-5'>
             <h1 className='ff_black_sans text-[40px] sm:text-[64px] text-white'>Trippy Goat</h1>
-            <p className='text-base ff_M_plus text-white font-normal lg:max-w-[558px] mx-auto'>Trippy Goats is a limited collection of 5656 Psychedelic goats, randomly generated from over 40 hand drawn traits. Each goat comes with ownership and commercial usage rights.</p>
+            <p className='text-base ff_M_plus text-white font-normal max-w-[700px] lg:max-w-[558px] mx-auto'>Trippy Goats is a limited collection of 5656 Psychedelic goats, randomly generated from over 40 hand drawn traits. Each goat comes with ownership and commercial usage rights.</p>
         <div className="flex justify-center pt-8">
                 <div className="button_border button_border-hover-style">
                   <span className="block bg-black p-1">

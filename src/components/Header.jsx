@@ -20,7 +20,7 @@ const Header = () => {
   };
   return (
     <nav className="bg_nav">
-      <div className="container xl:max-w-[1140px] h-[100px] sm:h-[80px] px-4 sm:px-8 xl:px-0 mx-auto flex items-center justify-between">
+      <div className="container xl:max-w-[1140px] h-[100px] lg:h-[80px] px-4 sm:px-8 xl:px-0 mx-auto flex items-center justify-between">
         <a href="/">
          <img src={logoImg} alt="logo-img" />
         </a>
