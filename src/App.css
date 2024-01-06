@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=M+PLUS+1:wght@400;500;600;700;800&display=swap');
+
+
+body,
+html {
+    background-color: #1d1d1e;
+}
+
+.custom_index {
+    z-index: 100000;
+}
+
+.overflow-hidden-while-loading {
+    overflow: hidden !important;
+    height: 100vh !important;
+}
+
+.ff_black_sans {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.ff_M_plus {
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+.bg_nav {
+    background: rgba(0, 0, 0, 0.60);
+    backdrop-filter: blur(38px);
+}
+
+.common_btn {
+    border: 1px solid transparent;
+    background: #FF7D01;
+    transition: all 300ms ease-in-out;
+}
+
+.button_border {
+    border: 1px solid transparent;
+    background: white;
+    border-radius: 2px;
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
+
+.button_border::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: -1px;
+    left: 35px;
+    transition: all 300ms ease-in-out;
+}
+
+.button_border-hover-style:hover::after {
+    width: 0px;
+}
+
+.button_border-hover-style:hover {
+    box-shadow: 10px 10px 23px rgba(252, 80, 0, 1);
+}
